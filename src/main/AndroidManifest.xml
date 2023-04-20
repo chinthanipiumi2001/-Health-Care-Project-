@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthCare"
+        tools:targetApi="31">
+        <activity
+            android:name=".HealthArticleDetails"
+            android:exported="false" />
+        <activity
+            android:name=".HealthArticles"
+            android:exported="false" />
+        <activity
+            android:name=".buyMedicineBook"
+            android:exported="false" />
+        <activity
+            android:name=".CartBuyMedicine"
+            android:exported="false" />
+        <activity
+            android:name=".buyMedicineDetails"
+            android:exported="false" />
+        <activity
+            android:name=".buyMedicine"
+            android:exported="false" />
+        <activity
+            android:name=".orderDetails"
+            android:exported="false" />
+        <activity
+            android:name=".LabTestBook"
+            android:exported="false" />
+        <activity
+            android:name=".cartLab"
+            android:exported="false" />
+        <activity
+            android:name=".LabtestDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Labtest"
+            android:exported="false" />
+        <activity
+            android:name=".BookingAppoinment"
+            android:exported="false" />
+        <activity
+            android:name=".Doctordetails"
+            android:exported="false" />
+        <activity
+            android:name=".FindDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
